@@ -13,7 +13,8 @@ body {
 .info img {
     width: 100%;
 }
-.info .more-inf {
+.info 
+.more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -39,10 +40,12 @@ ul {
     margin: 0;
     padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
     list-style: none;
 }
-input,button{
+input,
+button{
     outline: none;
 }
 button {
@@ -92,7 +95,7 @@ label[for="new-task"] {
 input#new-task {
     width: 318px;
 }
-.elem_add > button:hover {
+.elem-add > button:hover {
     color: #0FC57C;
 }
 
