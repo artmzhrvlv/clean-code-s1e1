@@ -91,6 +91,9 @@ label[for="new-task"] {
 input#new-task {
     width: 318px;
 }
+.elem_add > button:hover {
+    color: #0FC57C;
+}
 
 /* Task list */
 li {
@@ -138,11 +141,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.edit-mode input[type=text] {
+li.edit-mode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.edit-mode label {
+li.edit-mode label {
     display:none;
 }
