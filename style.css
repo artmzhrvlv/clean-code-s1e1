@@ -1,32 +1,26 @@
-/* Basic Style */
-body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
-}
-.info {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
+.header {
     text-align: right;
 }
-.info img {
+.header img {
     width: 100%;
 }
-.info 
-.more-inf {
+.header a {
     font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
-.info { 
+.header { 
       text-align: center;
   }
 }
-.elem {
+.header,
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Lato, sans-serif;
+    padding: 30px
 }
 .task {
     width: 56%;
@@ -61,7 +55,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
+.title,
 label[for="new-task"] {
     color: #333;
     font-weight: 700;
@@ -93,7 +87,7 @@ label[for="new-task"] {
     margin: 0 0 20px;
 }
 input#new-task {
-    width: 318px;
+    width: 297px;
 }
 .elem-add > button:hover {
     color: #0FC57C;
@@ -122,10 +116,10 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px;
 }
-button.delete img {
+.delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
@@ -145,11 +139,11 @@ ul li input[type=text] {
     display: none;
 }
 
-li.edit-mode input[type=text] {
+.edit-mode input[type=text] {
     display: inline-block;
-    width: 224px;
+    width: 259px;
 }
 
-li.edit-mode label {
+.edit-mode label {
     display: none;
 }
